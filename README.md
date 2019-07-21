@@ -1,2 +1,5 @@
 # quick-tutorials
-Quick run-through tutorials
+
+## Aim
+
+To keep track of tutorials/ walk-throughs that I have stepped through.
