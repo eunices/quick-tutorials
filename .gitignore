@@ -1,6 +1,9 @@
+*/plant_mod/*
 */data/*
 */data-*/*
-
+*/test/*
+*/train/*
+*.RData
 
 # Node
 
