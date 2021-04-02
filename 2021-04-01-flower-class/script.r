@@ -1,9 +1,16 @@
 setwd("2021-04-01-flower-class")
 
+# Setup
+libraries1 <- c('keras', 'tensorflow', 'tidyverse')
+libraries2 <- c('shiny', 'shinydashboard', 'rsconnect')
+
 library(tidyverse)
 library(keras)
 library(tensorflow)
 library(reticulate)
+
+library(shiny)
+library(shinydashboard)
 
 
 # Prep
