@@ -1,3 +1,5 @@
+# https://forloopsandpiepkicks.wordpress.com/2021/03/16/how-to-build-your-own-image-recognition-app-with-r-part-1/
+
 library(shiny)
 library(shinydashboard)
 library(rsconnect)
@@ -53,7 +55,7 @@ ui <- dashboardPage(
     fluidRow(
       column(h4("Image:"),imageOutput("output_image"), width=6),
       column(h4("Result:"),tags$br(),textOutput("warntext",), tags$br(),
-             tags$p("This bird is probably a:"),tableOutput("text"),width=6)
+             tags$p("This plant is probably a:"),tableOutput("text"),width=6)
     ),tags$br()
     
 ))
