@@ -232,7 +232,7 @@ theme_es_grey <- function (
     axis.text.y = element_text(angle = 0),
     legend.title = element_text(size=base_size-2),
     legend.text = element_text(size=base_size-2),
-    legend.position = c(1, 1.1), 
+    legend.position = c(1, 0.98), 
     legend.direction = legend.direction,
     legend.justification = "right",
     legend.background = element_rect(fill = "grey98", color = NA),
@@ -263,7 +263,9 @@ t <- g + geom_point(aes(color=temp_thres)) +
     caption="Source: This is a caption of the image. Please credit so and so."
   ) + scale_color_discrete(name = "Type"); t
 
-# ggsave('r/test.png', plot=t, width=15.45, height=NA, dpi=300, units="cm") # a4 normal
+t + theme_minimal()
+
+ggsave('r/test.png', plot=t, width=15.45, height=NA, dpi=300, units="cm") # a4 normal
 
 
 
